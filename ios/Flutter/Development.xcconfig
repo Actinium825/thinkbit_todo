@@ -1,0 +1,12 @@
+//
+//  Development.xcconfig
+//  Runner
+//
+//  Created by MAIN_TERMINAL on 02/06/2025.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+#include "Generated.xcconfig"
+bundle_suffix=.dev
+APP_NAME=[DEV] ThinkBit Todo
