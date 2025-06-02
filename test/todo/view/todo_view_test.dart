@@ -117,7 +117,7 @@ void main() {
         await tester.enterText(find.byType(TextField), 'a');
         await tester.tap(find.text('Add'));
 
-        verify(() => todoCubit.addTodo('')).called(1);
+        verify(() => todoCubit.addTodo('a')).called(1);
       },
     );
   });
