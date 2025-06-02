@@ -45,8 +45,14 @@ class _AddDialogState extends State<AddDialog> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                TextButton(onPressed: Navigator.of(context).pop, child: const Text('Cancel')),
-                TextButton(onPressed: _onAddTodo, child: const Text('Add')),
+                TextButton(
+                  onPressed: Navigator.of(context).pop,
+                  child: const Text('Cancel'),
+                ),
+                TextButton(
+                  onPressed: _onAddTodo,
+                  child: const Text('Add'),
+                ),
               ],
             ),
           ],
