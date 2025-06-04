@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895381940915",
+    "project_id": "thinkbit-todo",
+    "storage_bucket": "thinkbit-todo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895381940915:android:5c0129228afad6f13a9ec6",
+        "android_client_info": {
+          "package_name": "com.example.thinkbit_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUhHP0LNm4WDnIq9JR1mlX_r2YuPPmtYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
