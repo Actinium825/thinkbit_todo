@@ -1,4 +1,4 @@
-import 'package:thinkbit_todo/app/model/todo.dart';
+import 'package:thinkbit_todo/model/todo.dart';
 
 class TodoState {
   final List<Todo> todoList;

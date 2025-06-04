@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:thinkbit_todo/l10n/l10n.dart';
 import 'package:thinkbit_todo/todo/bloc/todo_cubic.dart';
 
 class AddDialog extends StatefulWidget {
@@ -35,6 +36,7 @@ class _AddDialogState extends State<AddDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return Dialog(
       child: Padding(
         padding: const EdgeInsets.all(20.0),
@@ -47,11 +49,11 @@ class _AddDialogState extends State<AddDialog> {
               children: [
                 TextButton(
                   onPressed: Navigator.of(context).pop,
-                  child: const Text('Cancel'),
+                  child: Text(l10n.cancelButtonLabel),
                 ),
                 TextButton(
                   onPressed: _onAddTodo,
-                  child: const Text('Add'),
+                  child: Text(l10n.addButtonLabel),
                 ),
               ],
             ),

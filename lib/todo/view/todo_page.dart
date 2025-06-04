@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:thinkbit_todo/l10n/l10n.dart';
 import 'package:thinkbit_todo/todo/bloc/todo_cubic.dart';
 import 'package:thinkbit_todo/todo/bloc/todo_state.dart';
 import 'package:thinkbit_todo/todo/view/add_dialog.dart';
@@ -22,7 +23,7 @@ class TodoView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Todo')),
+      appBar: AppBar(title: Text(context.l10n.todoAppBarTitle)),
       body: BlocBuilder<TodoCubit, TodoState>(
         builder: (_, state) {
           final todoList = state.todoList;

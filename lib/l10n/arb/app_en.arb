@@ -1,0 +1,15 @@
+{
+    "@@locale": "en",
+    "todoAppBarTitle": "Todo",
+    "@todoAppBarTitle": {
+        "description": "AppBar label of the Todo Page"
+    },
+    "addButtonLabel": "Add",
+    "@addButtonLabel": {
+        "description": "Dialog button label for adding todo"
+    },
+    "cancelButtonLabel": "Cancel",
+    "@cancelButtonLabel": {
+        "description": "Dialog button label for cancelling adding of todo"
+    }
+}
