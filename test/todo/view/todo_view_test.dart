@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:thinkbit_todo/app/model/todo.dart';
+import 'package:thinkbit_todo/model/todo.dart';
 import 'package:thinkbit_todo/todo/bloc/todo_cubic.dart';
 import 'package:thinkbit_todo/todo/bloc/todo_state.dart';
 import 'package:thinkbit_todo/todo/view/add_dialog.dart';

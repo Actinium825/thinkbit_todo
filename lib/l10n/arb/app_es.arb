@@ -1,0 +1,15 @@
+{
+    "@@locale": "es",
+    "todoAppBarTitle": "Todo",
+    "@todoAppBarTitle": {
+        "description": "Etiqueta AppBar de la página Todo"
+    },
+    "addButtonLabel": "Agregar",
+    "@addButtonLabel": {
+        "description": "Etiqueta del botón de diálogo para agregar tareas pendientes"
+    },
+    "cancelButtonLabel": "Cancelar",
+    "@cancelButtonLabel": {
+        "description": "Etiqueta del botón de diálogo para cancelar la adición de tareas pendientes"
+    }
+}

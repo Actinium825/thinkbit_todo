@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:dartx/dartx.dart';
-import 'package:thinkbit_todo/app/model/todo.dart';
+import 'package:thinkbit_todo/model/todo.dart';
 import 'package:thinkbit_todo/todo/bloc/todo_state.dart';
 
 class TodoCubit extends Cubit<TodoState> {
